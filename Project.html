@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-1139P</title>
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="soccer.css">
+    
+</head>
+<body>
+    <div class="soccerscore">
+        <div class="container">
+            <div class="row justify-content-center scoreedit">
+                <div class="col-4">
+                    <h3 class="Teams" id="changeteam">Avengers Dream Team</h3>
+                    <button onclick="myFunction()">Takım Değiştir</button>
+                    <button onclick="myFunction3()">Hacker</button>
+                </div>
+                <div class="col-4">
+                    <div class="scoreboard">
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <button class="pointbutton" onclick="clickcounter()"><h1 class="plus">+</h1></button>
+                                <button class="pointbutton" onclick="clickcounter3()"><h1 class="plus">-</h1></button>
+                            </div>
+                            <div class="col-3">
+                                <h1 class="score1" id="point1"><b>0</b></h1>
+                            </div>
+                            <div class="col-3">
+                                <h1 class="score2" id="point2"><b>0</b></h1>
+                            </div>
+                            <div class="col-3">
+                                <button class="pointbutton" onclick="clickcounter2()"><h1 class="plus">+</h1></button>
+                                <button class="pointbutton" onclick="clickcounter4()"><h1 class="plus">-</h1></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h2 class="Teams" id="changeteam2">Shadow X</h2>
+                    <button onclick="myfunction2()">Takım Değiştir</button>
+                    <button onclick="myfunction4()">Hacker</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="football">
+        <img src="/Pictures/soccer-1.png" class="soccerfield" alt="soccer12">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <img src="/Pictures/player-1.jpg" class="player1" alt="Player">
+                <img src="/Pictures/messi.jpg" class="player2" alt="Player">
+                <img src="/Pictures/sonic-2.jpg" class="player3" alt="player">
+                <img src="/Pictures/iron-man.avif" class="player4" alt="player">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+    <script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
