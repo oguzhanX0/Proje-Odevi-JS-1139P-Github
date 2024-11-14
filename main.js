@@ -50,7 +50,9 @@ function myfunction2(){
 function myFunction3(){
     pointcheck = prompt()
     if (pointcheck != Number(pointcheck)){
-        pointcheck = false;
+        pointcheck = alert("Sistemin içine ettin !!!!")
+
+        pointcheck = "??!!"
     }
     
     document.getElementById("point1").innerHTML = pointcheck;
@@ -58,6 +60,11 @@ function myFunction3(){
 
 function myfunction4(){
     pointcheck2 = prompt();
+    if (pointcheck2 != Number(pointcheck2)){
+        pointcheck2 = alert("Sistemin içine ettin !!!!")
+
+        pointcheck2 = "??!!"
+    }
 
     document.getElementById("point2").innerHTML = pointcheck2;
 }
