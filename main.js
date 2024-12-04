@@ -30,7 +30,7 @@ function decreaseScoreB() {
 
 function changeScoreA() {
   const newScore = prompt("Sadece sayı giriniz");
-  if (newScore != Number(newScore)) {
+  if (newScore != Number(newScore),(newScore < 0)) {
     alert("Sistemin bozuldu !!!!");
   } else {
     teamAScore = Number(newScore);
@@ -40,7 +40,7 @@ function changeScoreA() {
 
 function changeScoreB() {
     const newScore = prompt("Sadece sayı giriniz");
-    if (newScore != Number(newScore)) {
+    if (newScore != Number(newScore),(newScore < 0)) {
       alert("Sistemin bozuldu !!!!");
     }
     else {
